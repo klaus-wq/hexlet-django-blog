@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>{{app_name}}</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+<!--    <h1>{{app_name}}</h1>-->
+
+{% block content %}
+    <h1>Список статей</h1>
+    <a href="{% url 'articles_create' %}"><h2>Создать статью</h2></a>
+    {% for article in articles %}
+        <a href="{% url 'article_id' article.id %}"><h2>{{ article.name }}</h2></a>
+        <div>{{ article.body|slice:":200" }}</div>
+        <a href="{% url 'articles_update' article.id %}"><h3>Отредактировать статью</h3></a>
+         <form action="{% url 'articles_delete' article.id %}" method="post">
+            {% csrf_token %}
+            <input type="submit" value="Удалить">
+        </form>
+    {% endfor %}
+{% endblock %}

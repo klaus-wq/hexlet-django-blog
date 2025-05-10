@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ffb42b4-f2e4-43b0-96e1-3576fa976c65" name="Changes" comment="" />
+    <list default="true" id="4ffb42b4-f2e4-43b0-96e1-3576fa976c65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hexlet-django-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hexlet-django-blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/article/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet_django_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet_django_blog/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -20,11 +47,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Projects\PyCharmProjects\hexlet-django-blog\hexlet_django_blog\templates\articles" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
